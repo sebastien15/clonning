@@ -400,12 +400,7 @@ h1{
     .black-section{
         gap: 10px;
     }
-    .black-section .slider-buttons{
-        width: 50%;
-        font-size: 0.9rem;
-        background: black;
-        padding-right: 8px;
-    }
+    
     .section_one p:after{
         display: none;
     }
@@ -426,5 +421,11 @@ h1{
     }
     .swiper-slide div a h3{
         font-size: 0.9rem;
+    }
+    .black-section .slider-buttons{
+        width: 50%;
+        font-size: 0.9rem;
+        background: black;
+        padding-inline: 8px;
     }
 }
