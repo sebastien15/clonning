@@ -243,11 +243,38 @@ h1{
 }
 
 .section_three div div a{
-    
+    color: black;
 }
 
-.section_three div div a h4{
-    font-size: 1.875rem;
-    line-height: 1.2;
+.section_three div div a:hover{
     color: #00876c;
+}
+.section_three div div a h4{
+    font-size: 1.575rem;
+    line-height: 1.2;
+    color: inherit;
+}
+.section_three div div a h4:hover{
+    color: inherit;
+}
+
+.section_three div div a span{
+    color: inherit;
+}
+.section_three div div a h4:hover{
+    color: inherit;
+}
+
+.calender-container a{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #00876c;
+}
+.calender-container a:after{
+    content: "";
+    display: inline-block;
+    margin-left: 0.625rem;
+    font-family: "kit-icons";
+    font-size: 0.9em;
+    font-weight: 300;
 }
