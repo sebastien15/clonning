@@ -236,6 +236,7 @@ h1{
 
 
 
+
 .section_three div div img{
     height: 387px;
     object-fit: cover;
@@ -296,16 +297,55 @@ h1{
     border-left: 4px solid #02876b;
     font-weight: 700;
 }
-.stat-row div:first-of-type:hover{
+.stat-row:hover div:first-of-type{
     color: #fff;
     background-color:#02876b;
     cursor: pointer;
+    
 }
 .stat-row .col-right{
-
+    background-color: #f2f2f2;
+    padding: 10px;
 }
 .col-right h5{
     font-size: 1.25rem;
     line-height: 1.2;
-    color: 
+    font-weight: 700;
+    color: #404040;
+
+}
+.col-right p{
+    color: #404040;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .two-column-section a h3{
+        font-size: 1.085rem;
+       
+    }
+    .two-column-section a p{
+        font-size: 1.085rem;
+        font-weight: 200;
+        line-height: 1.2;
+    }
+    .section_three div div img{
+        height: 230px;
+    }
+    .section_three div div a h4{
+        font-size: 1.085rem;
+        font-weight: 700;
+    }
+    .section_three div div a span{
+        font-size: 0.985rem;
+        font-weight: 500;
+    }
+    .section_three .description{
+        font-size: 0.885rem;
+        font-weight: 300;
+    }
 }
