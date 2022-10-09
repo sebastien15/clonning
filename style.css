@@ -278,3 +278,34 @@ h1{
     font-size: 0.9em;
     font-weight: 300;
 }
+
+.section_three  .col-1:hover img{
+    transform: scale(1.008);
+    transition-property: transform, -webkit-transform;
+    transition-duration: 0.3s, 0.3s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+}
+.section_three  .col-1:hover a{
+    color: #00876c;
+}
+
+.stat-row div:first-of-type{
+    color: #404040;
+    background-color: #d9d9d9;
+    border-left: 4px solid #02876b;
+    font-weight: 700;
+}
+.stat-row div:first-of-type:hover{
+    color: #fff;
+    background-color:#02876b;
+    cursor: pointer;
+}
+.stat-row .col-right{
+
+}
+.col-right h5{
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: 
+}
