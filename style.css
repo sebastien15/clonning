@@ -363,8 +363,14 @@ h1{
     line-height: 20px;
     font-weight: 300;
 }
-
-
+footer{
+    background-color: #f2f2f2;
+}
+.footer-link{
+    color:#00876c;
+    font-size: 14px;
+    text-decoration: underline;
+}
 @media only screen and (max-width: 600px) {
     .two-column-section a h3{
         font-size: 1.085rem;
