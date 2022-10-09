@@ -421,4 +421,7 @@ h1{
         font-size: 18px;
         width: 100%;
     }
+    .swiper-slide div a h3{
+        font-size: 0.9rem;
+    }
 }
