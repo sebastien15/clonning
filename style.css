@@ -57,7 +57,20 @@ h1{
     font-size: 2.35em;
     background-image: none;
 }
-
+.swiper-slide a{
+    font-weight: 300;
+}
+.swiper-slide div>p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.swiper-slide div a h3{
+    font-size: 1.8rem;
+    font-weight:200;
+}
+.swiper-slide div a>p{
+    font-weight: 200;
+}
 .nav-container {
     height: 7.5625rem;
     background-color: white;
@@ -65,7 +78,9 @@ h1{
 .light-gray-color{
     color: rgba(0,135,108,0.9);
 }
-
+.buttons-wrapper a:hover h3, .buttons-wrapper a:hover p{
+    text-decoration: underline;
+}
 .section_one h1{
     font-size: 5rem;
 }
@@ -151,7 +166,7 @@ h1{
 .section_two>h1, .section_three>h1{
     font-size: 2.925rem;
     line-height: 1.18;
-    font-weight: 700;
+    font-weight: 500;
     color: #404040;
 }
 .section_two>h1:after{
@@ -244,7 +259,7 @@ h1{
 }
 
 .section_three div div a{
-    color: black;
+    color: #404040;
 }
 
 .section_three div div a:hover{
@@ -261,9 +276,16 @@ h1{
 
 .section_three div div a span{
     color: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    
 }
 .section_three div div a h4:hover{
     color: inherit;
+}
+.section_three div div a .description{
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 .calender-container a{
@@ -340,6 +362,10 @@ h1{
         font-size: 1.085rem;
         font-weight: 700;
     }
+    .section_two>h1, .section_three>h1{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
     .section_three div div a span{
         font-size: 0.985rem;
         font-weight: 500;
@@ -347,5 +373,8 @@ h1{
     .section_three .description{
         font-size: 0.885rem;
         font-weight: 300;
+    }
+    .stat-row div:first-of-type{
+        font-size: 1rem;
     }
 }
