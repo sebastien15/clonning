@@ -148,7 +148,7 @@ h1{
 }
 
 
-.section_two>h1{
+.section_two>h1, .section_three>h1{
     font-size: 2.925rem;
     line-height: 1.18;
     font-weight: 700;
@@ -206,10 +206,48 @@ h1{
     background-color: #00876c;
     color:white;
     padding: 0.625rem 0.9375rem;
+    text-decoration: underline;
 }
 
 
 
 .three-column-section .single-news a:hover{
     background-color: #007755;
+}
+
+
+.two-column-section a{
+    background-color: #00876c;
+    height:fit-content;
+}
+
+.two-column-section a h3{
+    font-size: 1.785rem;
+    line-height: 1.2;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.two-column-section a p{
+    font-size: 1.785rem;
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+
+
+.section_three div div img{
+    height: 387px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.section_three div div a{
+    
+}
+
+.section_three div div a h4{
+    font-size: 1.875rem;
+    line-height: 1.2;
+    color: #00876c;
 }
