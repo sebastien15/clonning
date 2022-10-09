@@ -163,6 +163,26 @@ h1{
 }
 
 
+
+.black-section form{
+    width: 31%;
+}
+.black-section form input{
+    min-width: 100%;
+    color: white
+}
+
+.black-section form button{
+    position: absolute;
+    top: 50%;
+    right: 1.25rem;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: transparent;
+    outline: none;
+}
+
 .section_two>h1, .section_three>h1{
     font-size: 2.925rem;
     line-height: 1.18;
@@ -363,7 +383,7 @@ h1{
         font-weight: 700;
     }
     .section_two>h1, .section_three>h1{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         font-weight: 500;
     }
     .section_three div div a span{
@@ -376,5 +396,29 @@ h1{
     }
     .stat-row div:first-of-type{
         font-size: 1rem;
+    }
+    .black-section{
+        gap: 10px;
+    }
+    .black-section .slider-buttons{
+        width: 50%;
+        font-size: 0.9rem;
+        background: black;
+        padding-right: 8px;
+    }
+    .section_one p:after{
+        display: none;
+    }
+    .swiper-slide {
+        height: 400px;
+    }
+    .section_one h1{
+        font-size: 2.35rem;
+        /* line-height: 3.08rem; */
+    }
+    .section_one .slider-buttons{
+        background: transparent;
+        font-size: 18px;
+        width: 100%;
     }
 }
